@@ -1,0 +1,46 @@
+public class Problem30_31_32{
+  public static void main(String[]args){
+    p30();
+    p31();
+    p32();
+  }
+  public static void p30(){
+    Scanner in = new Scanner(System.in);
+    String word = in.nextLine();
+    int[] nums = new int[3];
+    for(int i = 0 x < word.length(); i++){
+      if(word.toUpperCase().charAt(i)=='A')
+        nums[0]++;
+      if(word.toUpperCase().charAt(i)=='A')
+        nums[1]++;
+      if(word.toUpperCase().charAt(i)=='A')
+        nums[2]++;
+    }
+    int index = 0;
+    for(int x = 0; x < 3; x++){
+      if(nums[x]> nums[index]){
+        index = x;
+      }
+    }
+    System.out.println((char)(index+65));
+  }
+  public static void p31(){
+    Scanner in = new Scanner(System.in);
+    String word = in.nextLine();
+    for(int x = 0; x < word.length(); x++){
+      if(word.substring(x,x+1).equalsIgnoreCase("F")){
+        word = word.substring(0,x) + "*" + word.substring(x+1, word.length());
+      }
+    }
+    System.out.println(word);
+  }
+  public static void p32(){
+    Scanner in = new Scanner(System.in);
+    String word = in.nextLine();
+    for(int x = 0; x < word.length(); x++){
+      if(word.substring(x,x+1).equalsIgnoreCase("t")){
+        System.out.println("found it!");
+      }
+    }
+  }
+}

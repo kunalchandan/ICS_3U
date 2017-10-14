@@ -1,0 +1,15 @@
+import java.util.*;
+public class JayZandBeyonce
+{
+  public static void main(String[]args)
+  {
+    System.out.printf("%n%20s", "Jay Z and Beyoncé");
+    System.out.printf("%n%20s", "On the Run Tour");
+    System.out.printf("%n%s%30s", "SECTION", "PRICE");
+    System.out.printf("%n%s%30s", "Platinum", "$150.00");
+    System.out.printf("%n%s%30s", "Gold", "$120.50");
+    System.out.printf("%n%s%30s", "Red", "$80.75");
+    System.out.printf("%n%s%30s", "Green", "$50.25");
+    System.out.printf("%n%s", "-----------------------------");
+  }
+}

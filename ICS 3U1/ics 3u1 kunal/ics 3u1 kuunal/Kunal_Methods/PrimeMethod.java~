@@ -1,0 +1,21 @@
+import java.util.*;
+public class PrimeMethod
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    int prime = input.nextInt();
+  }
+  public static boolean primeNum(prime)
+  {
+    boolean result = true;
+    for(int x = 2; x < prime; x++)
+    {
+      if (prime%x == 0)
+      {
+        result = false;
+      }
+    }
+    return result;
+  }
+}

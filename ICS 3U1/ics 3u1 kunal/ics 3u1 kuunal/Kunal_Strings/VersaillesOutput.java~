@@ -1,0 +1,10 @@
+public class VersaillesOutput
+{
+  public static void main(String[] args)
+  {
+    String str = "Versailles";
+    System.out.println(str);
+    System.out.println(str.CharAt(0)+str.substring(2,3).toUpperCase());
+    System.out.println();
+    System.out.println();
+    System.out.println();

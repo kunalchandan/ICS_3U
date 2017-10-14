@@ -1,0 +1,12 @@
+public class MinMaxElement
+{
+  public static void main(String[]args)
+  {
+    String student[] = {"Peter", "Anthony", "Cada", "Niral", "Jonesy", "Rak"};
+    int mark[] = {"56","75","80","45","89","82"};
+    for(int x = 0; x < student[].length; x++)
+    {
+      
+    }
+    System.out.println("Input ->");
+    word = in.nextLine();

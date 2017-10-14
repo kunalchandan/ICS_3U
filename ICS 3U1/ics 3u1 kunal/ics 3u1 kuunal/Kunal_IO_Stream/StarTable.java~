@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+public class StarTable
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter the amount of rows:");
+    int rows = input.nextInt();
+    System.out.println("Enter the amount of rows:");
+    int columns= input.nextInt();
+    input.close();
+    
+    String array[][]= new String[rows][columns];
+    
+    for(int x = 0; x < rows; x++)
+    {
+      for(int x = 0; x < rows; x++)
+      {
+        
+      }
+    }
+  }
+}

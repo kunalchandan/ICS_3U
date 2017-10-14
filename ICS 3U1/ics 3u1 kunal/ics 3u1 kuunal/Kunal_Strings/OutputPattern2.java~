@@ -1,0 +1,11 @@
+public class OutputPattern2
+{
+  public static void main(String[] args)
+  {
+    String str = "OPQRSTUVWXYZ";
+    System.out.println(str);
+    System.out.println(str.lenght());
+    System.out.println(str);
+    System.out.println(str);
+    System.out.println(str);
+    

@@ -1,0 +1,21 @@
+public class Prime_Factorizer
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    int num = input.nextInt();
+    int root = math.pow(num,.5);
+    int factor = 0;
+    double check = 0;
+    System.out.println(num + " can be divided by the following numbers."
+    for(int x = root; x > 0; x--)
+    {
+      factor = num/x;
+      check = num/x;
+      if(factor == check)
+      {
+        System.out.print(factor);
+      }
+    }
+  }
+}

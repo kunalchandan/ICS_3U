@@ -1,0 +1,15 @@
+import java.util.*
+public class InterestCalculator
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    double ca
+    double startYear;
+    startYear = 
+    double currentYear;
+    double endYear;
+    double intrestRate;
+    System.out.printf(
+  }
+}

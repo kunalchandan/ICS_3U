@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.Math.*;
+import java.util.*;
+public class IDK
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    
+  /* This is a useless array machine
+    int[] anArray;
+    System.out.println("How many array thingys?");
+    int num = input.nextInt();
+    anArray = new int[num];
+    System.out.println("what array index do you want to start population?");
+    int i = input.nextInt();
+    int y =0;
+    for(int x = i; x > 0; x--)
+    {
+      anArray[x] = y += 100;
+    }
+    for(int z = i; z > 0; z--)
+    {
+      System.out.println(anArray[z]);
+    }*/
+  // This is going to ba a prime number finder
+    int[] Array;
+    System.out.println("What number do you want to find primes to?");
+    int num = input.nextInt();
+    Array = new int[num];
+    System.out.println("Say that again?");
+    int i = input.nextInt();
+  }
+}

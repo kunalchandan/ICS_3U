@@ -1,0 +1,13 @@
+import java.util.*;
+public class NthRoot {
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        double nth = in.nextDouble();
+        double num = in.nextDouble();
+        double xk = num/2;
+        for(int x = 0; x < 100; x++){
+         //   xk = 1/nth*((nth-1)*xk + num / Math.pow(xk, (nth-1)));
+            System.out.println(xk);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+import java.util.*;
+public class Methods
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter an intreger");
+    int trans = input.nextInt();
+    System.out.println(translate);
+  }
+  public static double translate(int trans)
+  {
+    double translate = trans;
+    return translate;
+  }
+}

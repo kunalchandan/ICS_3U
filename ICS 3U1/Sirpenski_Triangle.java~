@@ -1,0 +1,33 @@
+import java.util.*;
+public class Sirpenski_Triangle
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    
+    int layer, iteration, thing;
+    
+    System.out.println("How many iterations");
+    
+    iteration = input.nextInt();
+    layer = (int)Math.pow(2,iteration);
+    
+    for(int x = layer; x > 0; x--)
+    {
+      for(int y = x; y > 0; y--)//spacer on the left
+      {
+        System.out.print(" ");
+      }
+      System.out.print("/");//left side
+      if(x%2 == 1)
+      {
+        System.out.print("__\\");//middle + right
+      }
+      if(x%2 == 0)
+      {
+        System.out.print("\\");//right
+      }
+      System.out.println("");// next layer
+    }
+  }
+}

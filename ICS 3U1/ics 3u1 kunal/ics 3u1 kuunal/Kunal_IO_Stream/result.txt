@@ -1,0 +1,21 @@
+Averages of Students
+62.8
+52.6
+89.6
+58.8
+70.8
+46.6
+29.4
+77.6
+66.6
+91.6
+
+Highest Average
+91.6
+Test Averages
+
+71.2
+79.9
+75.9
+44.1
+52.1

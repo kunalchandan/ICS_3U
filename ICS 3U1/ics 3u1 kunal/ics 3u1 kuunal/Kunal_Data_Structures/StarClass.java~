@@ -1,0 +1,18 @@
+import java.util.*;
+public class StarClass
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.println("");
+    int rows = input.nextInt();
+    System.out.println("");
+    int colomns = input.nextInt();
+    
+    String [][] array = new int[rows][colomns];
+    
+    for(int x = 0; x < rows; x++)
+    {
+      for(int y = 0; y < colomns; y++)
+      {
+        array[rows][coloumns] = "*"

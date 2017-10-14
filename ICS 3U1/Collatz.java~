@@ -1,0 +1,25 @@
+public class Collatz
+{
+  public static void main(String[]args)
+  {
+    int count = 0;
+    for(int x = 1000; x > 0; x--)
+    {
+      System.out.println(count);
+      while (count !=1)
+      {
+        System.out.println(count);
+        count = x;
+        if (count %2 == 0)
+        {
+          count /=2;
+        }
+        else
+        {
+          count = count*3 +1;
+        }
+        System.out.println(count);
+      }
+    }
+  }
+}

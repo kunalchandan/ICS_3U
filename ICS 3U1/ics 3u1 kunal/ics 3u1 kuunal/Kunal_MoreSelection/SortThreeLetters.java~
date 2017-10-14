@@ -1,0 +1,56 @@
+import java.util.*;
+public class SortThreeLetters
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    char ch1;
+    char ch2;
+    char ch3;
+    System.out.println("");
+    ch1 = input.next().charAt(0);
+    ch2 = input.next().charAt(0);    
+    ch3 = input.next().charAt(0);
+    
+    if (ch1>96 && ch1<123 && ch2>96 && ch2<123 && ch3>96 && ch3<123)
+    {
+      if (ch1 < ch2 && ch1 < ch3)
+      {
+        System.out.println(ch1);
+      }
+      else if (ch2 < ch1 && ch2 < ch3)
+      {
+        System.out.println(ch2);
+      }
+      else
+      {
+        System.out.println(ch3)
+      }
+      
+      if (ch1 < ch2 && ch1 > ch3)
+      {
+        System.out.printf(ch1);
+      }
+      else if (ch2 < ch1 && ch2 > ch3)
+      {
+        System.out.printf(ch2);
+      }
+      else 
+      {
+        System.out.printf(ch3);
+      }
+      
+      if (ch1 > ch2 && ch1 > ch3)
+      {
+        System.out.printf(ch1);
+      }
+      else if (ch2 > ch1 && ch2 > ch3)
+      {
+        System.out.printf(ch2);
+      }
+      else
+      {
+        System.out.printf(ch3);
+      }
+      
+    }

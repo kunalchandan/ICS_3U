@@ -1,0 +1,22 @@
+import java.awt.*;
+import javax.swing.*;
+public class Rio extends JFrame
+{
+  public static void main(String[]args)
+  {
+    new StopSign(); 
+  }
+  public StopSign()
+  {
+    setTitle("Stop Sign"); 
+    setSize(250, 275);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setResizable(false);
+    setVisible(true);
+  }
+  public void paint(Graphics g)
+  {
+    super.paint(g);
+    Graphics2D g2 = (Graphics2D) g;
+    Font stop = new Font("Calibri",Font.PLAIN, 65);
+    g2.setFont(stop);

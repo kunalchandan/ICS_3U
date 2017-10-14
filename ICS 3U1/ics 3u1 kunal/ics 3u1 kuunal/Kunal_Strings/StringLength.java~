@@ -1,0 +1,24 @@
+import java.util.*;
+public class StringLength
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    
+    String str;
+    
+    System.out.println("Enter a word (Q to quit):");
+    str = input.next();
+    
+    if (str.compareto(Q)=0);
+    {
+      System.out.println("GOODBYE!");
+    }
+    else
+    {
+      System.out.println(str.toUpperCase + " is " + str.lenght() + " characters long!");
+      System.out.println("Enter a word (Q to quit):");
+      str = input.nextString();
+    }
+  }
+}

@@ -1,0 +1,31 @@
+public class SwitchDemo 
+{
+    public static void main(String[] args)
+    {
+      System.out.println("What would you like?");
+      System.out.println("1) juice, muffin, coffee");
+      System.out.println("2) cereal, toast, milk");
+      System.out.println("3) egg, toast, coffee");
+      System.out.println("4) banana, granola, milk");
+      System.out.println("5) grapefruit, bacon, eggs, coffee");
+      int food;
+      switch (month) 
+      {
+        case 1:  
+          System.out.println("The meal is $2.50");
+        break;
+        case 2:
+          System.out.println("");
+        break;
+        case 3:
+          System.out.println("");
+        break;
+        case 4:
+          System.out.println("");
+        break;
+        case 5:
+          System.out.println("");
+        break;
+      }
+    }
+}

@@ -1,0 +1,15 @@
+import java.util.*;
+public class Chandan_Kunal_Practical1
+{
+  public static void main(String[]args)
+  {
+    int mark1,mark2,mark3;
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter Mark 1:");
+    mark1 = in.nextInt();
+    System.out.println("Enter Mark 1:");
+    mark2 = in.nextInt();
+    System.out.println("Enter Mark 1:");
+    mark3 = in.nextInt();
+  }
+}

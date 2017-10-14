@@ -1,0 +1,7 @@
+public class HelloWorld
+ {
+   public void run()
+   {
+  system.out.println("My name")
+   }
+ }

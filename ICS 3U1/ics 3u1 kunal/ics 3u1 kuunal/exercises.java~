@@ -1,0 +1,16 @@
+public class exercises
+{
+  public static void main(String[] args)
+  {
+    String str = "2468";
+    StringBuffer sb = new StringBuffer(str);
+    for( int i = 4; i > 1; i--)
+    {
+      while (((int x = abs(i-4))>0)--)
+      {
+        System.out.print(" ");
+      }
+      System.out.print(sb.reverse().substring(i-1,i))
+    }
+  }
+}

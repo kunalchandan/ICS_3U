@@ -1,0 +1,16 @@
+import java.util.*;
+public class ChandanKunal_SIN
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter your SIN");
+    int sin = input.nextInt();
+    int sin1= sin;
+    int 1st = sin%10;
+    int 2nd = sin%100 - 1st;
+    int 3rd = sin%1000 - 1st - 2nd;
+    int 4th = sin
+    while 
+  }
+}

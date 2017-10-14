@@ -1,0 +1,14 @@
+import java.util.*;
+public class LetterGrader
+{
+  public static void main(String[]args)
+  {
+    int mark;
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter Percentage:");
+    mark = in.nextInt();
+    if((mark > 0) && (mark < 50))
+    {
+      System.out.println("Grade is: C");
+    }
+    else if(mark 

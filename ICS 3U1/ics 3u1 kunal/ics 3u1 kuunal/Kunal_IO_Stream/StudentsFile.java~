@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+public class StudentsFile
+{
+  public static void main(String[]args)
+  {
+    Scanner input = new Scanner("marks.txt");
+    int array[][] = new int[10][5];
+    try
+    {
+      BufferedWriter bf = new BufferedWriter(new FileWriter("result.txt"));
+      bf.write();
+      bf.newLine();
+      bf.close();
+    }
+    catch (IOException ex)
+    {
+      System.out.println("");
+    }
+  }
+}

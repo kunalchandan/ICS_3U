@@ -1,0 +1,13 @@
+import java.util.*;
+public class ChandanKunalPractical
+{
+  public ststic void main(Srting[]args)
+  {
+    Scanner input = new Scanner(System.in);
+    //Q1
+    
+    //Q2
+    
+    //Q3
+  }
+}
